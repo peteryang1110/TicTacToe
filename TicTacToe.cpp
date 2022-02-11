@@ -33,6 +33,13 @@ void DisplayBoard(vector<vector<int> > board) {
   cout << endl;
 }
 
+int GetPlayerChoice() {
+  string choice = "";
+  cout << "Please enter your choice: ";
+  cin >> choice;
+  return stoi(choice);
+}
+
 int main() {
   vector<vector<int> > board = CreateBoard();
   DisplayBoard(board);
