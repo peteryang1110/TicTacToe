@@ -18,7 +18,7 @@ void DisplayBoard(vector<vector<int> > board) {
           cout << " X";
           break;
         default:
-          cout << " " << i + j * 3 + 1;
+          cout << " " << j + i * 3 + 1;
       }
       if (j != 2) {
         cout << " |";
