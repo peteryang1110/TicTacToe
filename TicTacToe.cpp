@@ -56,6 +56,11 @@ void PlaceMarker(int i, int marker) {
       break;
 
    }
+int GetPlayerChoice() {
+  string choice = "";
+  cout << "Please enter your choice: ";
+  cin >> choice;
+  return stoi(choice);
 }
 
 int main() {
